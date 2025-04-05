@@ -1,0 +1,43 @@
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#chart {
+    width: 100%;
+    height: 600px;
+}
+
+.bar:hover {
+    fill: #69b3a2;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    opacity: 0;
+}
+
+.axis-label {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.tick {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+} 
